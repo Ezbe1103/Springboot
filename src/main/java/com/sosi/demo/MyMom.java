@@ -12,7 +12,7 @@ import java.util.Map;
 
 @RestController
 public class MyMom {
-
+//Thank You God!
 
     private Map<Long,Entry>Entrys=new HashMap<>();
     @GetMapping ("/getall")
