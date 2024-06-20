@@ -9,6 +9,8 @@ public class Talemnat2 {
     public String Ezbe() {
         return "Hello World";
     }
+//Gaurav is the best
+    //Code is used Get Api
 
     @GetMapping("/talemnat")
     public String Sosena() {
