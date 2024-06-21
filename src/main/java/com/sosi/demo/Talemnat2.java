@@ -16,7 +16,7 @@ public class Talemnat2 {
     public String Sosena() {
         return "Thank You God ";
     }
-
+// Gaurav is the best teacher in the whole world!
 
     @GetMapping("/getpeople")
     public String Talemnat() {
