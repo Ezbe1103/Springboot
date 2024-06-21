@@ -1,5 +1,5 @@
 package com.sosi.demo;
-
+//First Pull Practice
 public class Entry {
     private  long id;
     private String title;
