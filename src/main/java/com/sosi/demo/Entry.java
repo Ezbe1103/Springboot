@@ -1,10 +1,10 @@
 package com.sosi.demo;
-
+//First Pull Practice
 public class Entry {
     private  long id;
     private String title;
     private String contain;
-
+// Add another comment to it
     public long getId() {
         return id;
     }

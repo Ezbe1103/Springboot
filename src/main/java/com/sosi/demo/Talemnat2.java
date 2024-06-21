@@ -9,12 +9,14 @@ public class Talemnat2 {
     public String Ezbe() {
         return "Hello World";
     }
+//Gaurav is the best
+    //Code is used Get Api
 
     @GetMapping("/talemnat")
     public String Sosena() {
         return "Thank You God ";
     }
-
+// Gaurav is the best teacher in the whole world!
 
     @GetMapping("/getpeople")
     public String Talemnat() {
