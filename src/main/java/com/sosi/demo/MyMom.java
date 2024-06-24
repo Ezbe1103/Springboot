@@ -15,7 +15,7 @@ import java.util.Map;
 @RestController
 public class MyMom {
 //Thank You God!
-
+//Not Thank You Enough!
     private Map<Long,Entry>Entrys=new HashMap<>();
     @GetMapping ("/getall")
     public List<Entry> Talemnat(){
