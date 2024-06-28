@@ -9,7 +9,7 @@ public class Talemnat2 {// MAIN CLASS
     public String Ezbe() {// FUNCTION
         return "Hello World";//RESPONSE
     }
-//Gaurav is the best
+//Gaurav is the best 
     //Code is used Get Api
 
     @GetMapping("/talemnat")
