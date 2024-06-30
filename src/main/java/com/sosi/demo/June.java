@@ -13,7 +13,7 @@ public class June {
     public  String One(){
         return "Again";
     }
-    @GetMapping("/two")
+    @GetMapping("/twoo")
     public  String Five(){
         return "Try";
     }
