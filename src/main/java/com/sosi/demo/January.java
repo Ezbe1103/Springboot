@@ -14,5 +14,20 @@ public class January {
     public String IsBestInstructor(){
         return "Gaurav";
     }
-
+@GetMapping("/weekend")
+    public String Restfull(){
+        return "Day";
+}
+@GetMapping("/love")
+    public String My(){
+        return "Boys";
+}
+@GetMapping("/life")
+    public String Is(){
+        return"Beautiful";
+}
+@GetMapping("/eat")
+    public String Healthy(){
+        return"Food";
+}
 }
