@@ -30,4 +30,36 @@ public class January {
     public String Healthy(){
         return"Food";
 }
+@GetMapping("/wekkend")
+    public String Sunday(){
+        return "FunDay";
+}
+@GetMapping("/monday")
+    public String FirstDay(){
+        return "OfTheWeek";
+}
+@GetMapping("/tuesday")
+    public String SecondDay(){
+        return"OfWork";
+}
+@GetMapping("/wensday")
+    public String ThirdDay(){
+        return"MidWeek";
+}
+@GetMapping("/thursady")
+    public String ForthDay(){
+        return"CloseToEndWeek";
+}
+@GetMapping("/friday")
+    public String FifthDay(){
+        return"AlmostWeekend";
+}
+@GetMapping("/saturday")
+    public String SixthDay(){
+        return"OfficialWeekend";
+}
+@GetMapping("/sunday")
+    public String ChurchAnd(){
+        return"FunDay";
+}
 }

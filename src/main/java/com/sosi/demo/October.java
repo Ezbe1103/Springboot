@@ -44,7 +44,7 @@ public class October {
 
     @GetMapping("/december")
     public String Last(@RequestParam String Last, @RequestParam String Month){
-        return Last + " "+Month;
+        return Last +" "+Month;
     }
 
     @GetMapping("/getid/{id}")
