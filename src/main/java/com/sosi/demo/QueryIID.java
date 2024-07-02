@@ -29,9 +29,10 @@ public class QueryIID {
         return FirstQueryParam+" "+SecondQueryParam;
     }
     @GetMapping("/express-api-queryparam")
-    public String SpecialMethod(@RequestParam String AmericaExpCard,@RequestParam String NewCreditCard){
-        return AmericaExpCard+" "+NewCreditCard;
+    public String SpecialMethod(@RequestParam String AmericanExpCard,@RequestParam String NewCreditCard){
+        return AmericanExpCard+" "+NewCreditCard;
     }
+
 
 
 }
