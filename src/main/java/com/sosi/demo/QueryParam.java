@@ -1,6 +1,7 @@
 package com.sosi.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -55,5 +56,43 @@ public class QueryParam {
     public String Practice12 (@RequestParam String Mylucky,@RequestParam String Numbers){
         return Mylucky+" "+Numbers;
     }
+    @GetMapping("/twelve")
+    public String Practice13 (@RequestParam String Multipl,@RequestParam String MoreThan,@RequestParam String OneTwo){
+       return Multipl+" "+MoreThan+" "+OneTwo;
+    }
+    @GetMapping("/thirteen")
+    public String Practice14 (
+            @RequestParam String Money,
+            @RequestParam String Car,
+            @RequestParam String House,
+            @RequestParam String Life
+    ) {
+        return Money+" "+Car+" "+House+" "+Life;
+    }
+    @GetMapping("/forteen")
+    public String Practice15 (@RequestParam String Black,
+                   @RequestParam String White,
+                   @RequestParam String Yellow,
+                   @RequestParam String Green,
+                   @RequestParam String Pink
+    ){
 
+
+        return Black+" "+White+" "+Yellow+" "+Green+" "+Pink;
+
+    }
+
+@GetMapping("/newid/{id}")
+    public String Alone (@PathVariable String id ){
+        return id;
+    }
+    @GetMapping("/secondid/{id}")
+    public String Wow (@PathVariable String id){
+        return id;
+    }
 }
+//datatypes in java
+//loops in java
+//if else in java
+
+//Next session is on Post api
