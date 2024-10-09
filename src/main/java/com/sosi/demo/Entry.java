@@ -8,7 +8,7 @@ public class Entry {
     public long getId() {
         return id;
     }
-
+// you are the best
     public void setId(long id) {
         this.id = id;
     }
